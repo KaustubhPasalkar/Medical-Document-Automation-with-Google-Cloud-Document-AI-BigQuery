@@ -5,6 +5,7 @@ Streamline medical insurance claim processing with advanced AI techniques, reduc
 ## 📚 Project Overview
 This project leverages **Google Cloud Document AI** (Vertex AI and Generative AI) to automate the processing of medical insurance claim documents. By integrating **OCR** for digitization and **NLP** for content categorization, the system efficiently extracts structured data with high accuracy and integrates seamlessly with **BigQuery** for advanced data analysis.
 
+
 ## 🚀 Setup and Implementation
 
 ### 1. Create a Processor
@@ -13,10 +14,12 @@ This project leverages **Google Cloud Document AI** (Vertex AI and Generative AI
 - Select the appropriate region and enable Google-managed storage and encryption.
 ![image](https://github.com/user-attachments/assets/ec20c736-af8f-4f5d-9219-12c3b76c8a62)
 
+
 ### 2. Processor Configuration
 - **Field Definition**: Identify fields such as `claim_number`, `insured_name`, `service_date`, `amount_billed`, `amount_paid`, and `medical_procedure`.
 - **Field Attributes**: Define data types (e.g., Number, Date, Currency) and set occurrence parameters (Required, Optional).
 <img width="1470" alt="Screenshot 2024-08-22 at 2 14 21 PM" src="https://github.com/user-attachments/assets/9aec788c-faec-4ade-960d-b9c3466525a7">
+
 
 ### 3. Document Labeling
 - **Upload Documents**: Import PDFs into the labeling console from Google Cloud Storage.
@@ -31,15 +34,18 @@ This project leverages **Google Cloud Document AI** (Vertex AI and Generative AI
 - **Auto-Labeling**: Utilize **Generative AI** to automate the labeling process, ensuring efficient and accurate training data.
 <img width="1470" alt="Screenshot 2024-08-22 at 2 14 26 PM" src="https://github.com/user-attachments/assets/f9aa6e67-979c-41a2-997b-7d1cb216774e">
 
+
 ### 5. Training Custom Model
 - Ensure a balanced dataset with at least 10 examples per field.
 - **Setup Training**: Configure and train a custom processor for optimal performance.
 ![image](https://github.com/user-attachments/assets/8ccd3554-88ec-470a-8630-75df0a3b380c)
 
+
 ### 6. Deployment
 - Deploy the trained model for real-time processing.
 - Manage processor versions for easy updates and scalability.
 ![image](https://github.com/user-attachments/assets/916f9448-1307-441b-88f5-76c3539b3afa)
+
 
 ### 7. Evaluation and Testing
 - **Model Evaluation**: The model achieved a performance accuracy (96.1%), precision (95.5%), and recall (96.8%).
