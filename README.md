@@ -1,0 +1,1 @@
+# Medical-Document-Automation-with-Google-Cloud-Document-AI-BigQuery
