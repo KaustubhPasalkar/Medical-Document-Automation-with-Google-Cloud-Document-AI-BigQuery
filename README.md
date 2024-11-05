@@ -16,7 +16,7 @@ This project leverages **Google Cloud Document AI** (Vertex AI and Generative AI
 
 
 ### 2. Processor Configuration
-- **Field Definition**: Identify fields such as `claim_number`, `insured_name`, `service_date`, `amount_billed`, `amount_paid`, and `medical_procedure`.
+- **Field Definition**: Identify fields such as `claim_number`, `company_name`, `service_date`, `amount_billed`, `amount_paid`, and `medical_procedure`.
 - **Field Attributes**: Define data types (e.g., Number, Date, Currency) and set occurrence parameters (Required, Optional).
 <img width="1470" alt="Screenshot 2024-08-22 at 2 14 21 PM" src="https://github.com/user-attachments/assets/9aec788c-faec-4ade-960d-b9c3466525a7">
 
