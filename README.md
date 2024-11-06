@@ -25,7 +25,6 @@ This project leverages **Google Cloud Document AI** (Vertex AI and Generative AI
 - **Upload Documents**: Import PDFs into the labeling console from Google Cloud Storage.
 - **Annotation**: Use built-in annotation tools to label fields. Leverage the foundation model for initial suggestions and manually correct any inaccuracies.
 <img width="1470" alt="Screenshot 2024-08-22 at 2 18 20 PM" src="https://github.com/user-attachments/assets/8daf0ee6-bc89-4730-876a-e2749d1d22b0">
-<img width="783" alt="DocumentAI1" src="https://github.com/user-attachments/assets/5bb453e3-5239-40f1-8bb5-f9014f7dd912">
 <img width="1470" alt="Screenshot 2024-08-22 at 2 18 28 PM" src="https://github.com/user-attachments/assets/b34ff4d8-d3e4-4509-ade7-34cce0f2369e">
 
 
